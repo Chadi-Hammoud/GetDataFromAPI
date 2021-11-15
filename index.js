@@ -4,6 +4,8 @@
       var ul = document.getElementById('ul_01')
       json.array.forEach(element => {
           var li = document.createElement('li')
-          li.innerHTML = element.name
+          li.innerHTML = element.name;
+          ul.appendChild(li);
+
       });
   })
